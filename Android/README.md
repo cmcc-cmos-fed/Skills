@@ -1,1 +1,1 @@
-这家伙很懒，什么也没有留下
+https://developer.android.google.cn/training/index.html
