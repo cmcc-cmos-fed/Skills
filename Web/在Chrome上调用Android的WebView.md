@@ -1,4 +1,4 @@
-####Step 1
+#### Step 1
 
 在Android的代码里设置打开WebView调试模式
 
@@ -8,7 +8,7 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
 }
 ```
 
-####Step 2
+#### Step 2
 
 电脑与Android手机USB连接，确保开发者模式打开；
 
