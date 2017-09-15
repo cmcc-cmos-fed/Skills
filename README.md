@@ -47,6 +47,9 @@
 
 - [Android Configuration change引发的问题及解决方法](http://blog.csdn.net/aliaooooo/article/details/23606179?)
 
+- [Android SDK 源码解析](https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis)
+
+
 ### <a name="架构">架构
 
 ### <a name="Kotlin">Kotlin
