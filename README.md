@@ -57,8 +57,12 @@
 # <a name="iOS">iOS
 
 ### <a name="iOS基础">基础
+- [Swift Programming Language](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)
 
 ### <a name="iOS进阶">进阶
+- [OC 2 Swift](https://github.com/cmcc-cmos-fed/Skills/blob/master/iOS/OC%202%20Swift.md)
+- [ReactiveCocoa 6 MVVM Playground](https://github.com/ReactiveCocoa/ReactiveSwift/blob/master/ReactiveSwift-UIExamples.playground/Pages/ValidatingProperty.xcplaygroundpage/Contents.swift)
+- [ReactiveCocoa操作符示意图](http://neilpa.me/rac-marbles/)
 
 # <a name="Web">Web
 
