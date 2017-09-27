@@ -185,7 +185,7 @@ extension LineType: LineTypeProtocol {
 ```
 
 ### Swift Timer
-Swift的NSTimer以及不推荐，取而代之的是DispatchSource.makeTimerSource(_:)
+Swift的NSTimer已经不推荐，取而代之的是DispatchSource.makeTimerSource(_:)
 
 ```swift
 var loadingTimer = DispatchSource.makeTimerSource(queue: DispatchQueue(label: "com.smrz.loadingTimer"))
