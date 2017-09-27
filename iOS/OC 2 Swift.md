@@ -1,4 +1,4 @@
-###OC继承 VS Swift协议
+### OC继承 VS Swift协议
 在OC中协议是不可扩展的，所以在某些情况下不得不使用继承。以创建的ViewController为例为了让他们都有某些特性，我需要这样大致要写一个超类，然后创建的ViewController都继承自它。这种方法行之有效，但是类一单继承即拥有父类所有特性，
 
 ```objc
@@ -119,7 +119,7 @@ extension BaseViewProtocol where Self: BaseViewGesture {
 
 BaseViewProtocol只负责基本的公共构造方法，如果想在ViewController中添加一个gesture,只需要ViewController同时遵从BaseViewProtocol和BaseViewGesture两个协议才会拥有此特性
 
-###Swift enum
+### Swift enum
 swift的enum要比oc灵活的多，能够添加方法、拓展、遵从协议。参考了一下Moya这个库，在OC中写的适配器类可以这样
 
 ```swift
@@ -184,7 +184,7 @@ extension LineType: LineTypeProtocol {
 }
 ```
 
-###Swift Timer
+### Swift Timer
 Swift的NSTimer以及不推荐，取而代之的是DispatchSource.makeTimerSource(_:)
 
 ```swift
@@ -216,7 +216,7 @@ let property = DynamicProperty<String>(object: person, keyPath: #keyPath(person.
 let property = DynamicProperty<Bool>(object: loginButton, keyPath: #keyPath(UIButton.isEnabled))
 ```
 
-###ReactiveCocoa Method Swizzing
+### ReactiveCocoa Method Swizzing
 ReactiveCocoa从正式迁移到Swift开始就已经代理方法迁移跟之前不太一，只能响应拦截方法的调用，而获取不到入参
 
 ```objc
@@ -241,7 +241,7 @@ _scrollViewSignal = [[self rac_signalForSelector:@selector(scrollViewDidEndDecel
         }
 ```
 
-#未完待续。。。。。。。
+# 未完待续。。。。。。。
 
 
 
