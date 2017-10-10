@@ -205,7 +205,7 @@ loadingTimer.setEventHandler(handler: {
 loadingTimer.cancel()
 ```
 
-###ReactiveCocoa 6的属性监听
+### ReactiveCocoa 6的属性监听
 这个比较坑github上的实例是这样的
 
 ```swift
@@ -215,6 +215,9 @@ let property = DynamicProperty<String>(object: person, keyPath: #keyPath(person.
 //#keyPath正确的应该这样
 let property = DynamicProperty<Bool>(object: loginButton, keyPath: #keyPath(UIButton.isEnabled))
 ```
+
+**注意**
+若在Swift的类中声明了一个变量，想使用KVO监听该变量，需要在声明变量的时添加dynamic关键字
 
 ### ReactiveCocoa Method Swizzing
 ReactiveCocoa从正式迁移到Swift开始就已经代理方法迁移跟之前不太一，只能响应拦截方法的调用，而获取不到入参
